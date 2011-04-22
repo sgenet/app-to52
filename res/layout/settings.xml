@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="Préférences"
+        android:key="preferences_category1">
+        
+        <EditTextPreference
+            android:key="phone_number_ecall"
+            android:title="N° eCall" 
+            android:summary="Définisez le numéro à appeler en cas d'urgence"
+            android:dialogTitle="N° en cas d'urgence"
+            android:defaultValue="+33684684394"
+      	/>
+
+    </PreferenceCategory>
+    
+</PreferenceScreen>

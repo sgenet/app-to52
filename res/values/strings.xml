@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Telefot</string>    
+    
+<!-- ECALL -->
+    
+    <string name="location_disabled">Aucune source de localisation active !</string>
+    <string name="location_enabled_gps">Localisé grâce à la puce GPS</string>
+    <string name="location_enabled_gsm">Localisé grâce à la puce GSM</string>
+    <string name="ecall_confirm_msg">Etes-vous certain de vouloir effectuer un ECall ?</string>
+    <string name="alert_msg">Etes-vous certain de vouloir envoyer cette alerte ?</string>
+    
+<!-- MENU -->
+
+    <string name="menu_text1">Settings</string>    
+    <string name="menu_text2">History</string>    
+
+<!-- SETTINGS -->
+
+	<string name="def_language">1</string>
+	<string name="def_phone_number_ecall">+33684684394</string>
+
+    <string-array name="updateLanguage">
+        <item name="0">English</item>
+        <item name="1">Français</item>
+    </string-array>
+
+    <string-array name="updateLanguageValues">
+        <item name="0">EN</item>
+        <item name="1">FR</item>
+    </string-array>
+
+
+<!-- 	INCIDENTS 	-->
+
+    <string-array name="incidents_names">
+        <item>Malaise</item>
+        <item>Panne</item>
+        <item>Objet sur la route</item>
+        <item>Vue d\'un accident</item>
+    </string-array>
+    
+    <string-array name="incidents_refs">
+        <item>al_malaise</item>
+        <item>al_panne</item>
+        <item>al_objet</item>
+        <item>al_vu_acc</item>
+    </string-array>
+
+<!-- 	ALERTS	 -->
+    
+    <string-array name="alerts_names">
+        <item>Chute de neige</item>
+        <item>Présence de bouchons</item>
+        <item>Présence d\'un radar</item>
+        <item>Vent fort</item>
+        <item>Il y a du brouillard</item>
+    </string-array>
+    
+    <string-array name="alerts_refs">
+        <item>al_chuteDeNeige</item>
+        <item>al_bouchons</item>
+        <item>al_radar</item>
+        <item>al_vent</item>
+        <item>al_brouillard</item>
+    </string-array>
+    
+</resources>

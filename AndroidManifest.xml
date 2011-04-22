@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.telefot"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+	<!-- Allows an application to access coarse (e.g., Cell-ID, WiFi) location -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<!-- Allows an application to access fine (e.g., GPS) location -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<!-- Allows applications to open network sockets. -->
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	<uses-permission android:name="android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS"></uses-permission>
+    <uses-sdk android:minSdkVersion="4" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+    	<activity 
+    		android:name="HomeActivity" 
+    		android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar">
+          	
+          	
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+          	
+         </activity>
+         
+        <activity android:name="EcallActivity"></activity>
+		
+		<activity android:name="ListAlertsActivity"></activity>
+		
+		<activity android:name="SettingsActivity"></activity>
+		
+		<activity android:name="HistoryActivity"></activity>
+
+    </application>
+</manifest>
